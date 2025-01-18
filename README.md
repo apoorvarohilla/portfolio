@@ -13,4 +13,4 @@ Showcase my skills and projects Create a user-friendly experience for visitors I
 
 You can check out my project on below link.
 
-#### Link: https://iamakashjha.github.io/portfolio/
+#### Link: https://github.com/apoorvarohilla/portfolio/
