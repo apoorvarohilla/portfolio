@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash Jha</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="port.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/5b2ca4028d.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Expertise</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hello, My name is</p>
+                <h1>Apoorva Rohillla <span> 
+                <p>I'm a <span class="typing"></span></p></h1>
+                
+
+            </div>
+        </div>
+    </div>
+
+<!-- /-------- about --------/ -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./unnamed.pdf" alt="self image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Welcome to my portfolio! I am Apoorva Rohilla a dedicated Data Science enthusiast with a strong foundation in mathematics, computer science & Engineering. Proficient in Python, SQL, and a range of data analysis tools, proficient in Machine Learning, Deep Learning, Python, R, SQL, Tableau, Power BI, Advance Excel, and PowerPoint. I have hands-on experience working with real-time data (in millions of rows) and built End-to-End AI/ML Models from scratch to deployment. I have experience in data cleaning, and analytics, creating interactive reporting dashboards, and applying machine learning algorithms.
+                        I have experience working as an intern with Zidio Development, Oasis Infobyte, and Bharat Intern. Worked on diverse projects, from web scraping and predictive modeling to AI-driven business solutions. I've also developed end-to-end projects like; Face Punching Attendance System, Movie Recommender System, and Email Spam Detection using Machine Learning and Car Price Prediction. My passion for continuous learning is evident through certifications and participation in advanced programs.</p>
+                    <br>
+                    
+                    <div class="tab-title">
+                        <p class="tab-link I" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link II" onclick="opentab('education')">Education</p>
+                        <p class="tab-link III" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-content I" id="skills">
+                        <ul>
+                            <li><span>Key Skills</span><br> Data Science Life Cycle, Model Building, Model Deployment, Data Visualization, Statistical Analysis, Feature Engineering, Data Preprocessing, Model Evaluation, Time Series Analysis, Data Modeling, Prompt Engineering, Web Scraping</li>
+                            <li><span>Programming Languages</span><br>Python, R, SQL</li>
+                            <li><span>BI Tools </span><br>Power BI, Tableau,  Advanced Excel.</li>
+                            <li><span>Databases </span><br>MySQL</li>
+                            <li><span>Libraries</span><br>NumPy, Pandas, SciPy, Matplotlib, Seaborn, Scikit Learn, Statsmodel, Streamlit, Gradio, Flask, PyTorch </li>
+                            <li><span>ML Algorithms</span><br>Linear Regression, Logistic Regression, Decision Tree, SVM, KNN, AdaBoost, XGBoost.</li>
+                            <li><span>Other Tools</span><br>PyCharm, Anaconda, Jupyter Notebook, Google Colab, AWS SageMaker, RStudio, Git, GitHub, MS Office (Excel, Word, Power Point) </li>
+                            <li><span>Mathematics</span><br>Statistics, Probability, Linear Algebra, Calculus, and Matrices.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content II" id="education">
+                        <ul>
+            
+                            <li><span>2017 - 2021</span><br>Bachelor of Technology, Gl bajaj, Noida<br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-content III" id="experience">
+                        <ul>
+                            <li><span>Sep 2024 - Dec 2024</span><br>Data Science & Analytics Intern <br><p> Zidio Development</p></li>
+                            <li><span>Jul 2024 - Sept 2024</span><br>Data Analysis Intern <br><p> Indikraft </p></li>
+                            <li><span>Feb 2022 - Dec 2023</span><br>Application Development Associate <br><p> Accenture </p></li>
+                            <li><span>Oct 2020 - Jan 2021</span><br>Python Intern<br><p> Idemia </p></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------services-------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Expertise</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-wand-magic-sparkles"></i>
+                    <h2>Data Analytics</h2>
+                    <p>Data analytics is the process of analyzing raw data to find trends and answer questions. It has a broad scope across the field. This process includes many different techniques and goals. There are four primary types of data analytics: descriptive, diagnostic, predictive and prescriptive analytics.</p>
+                </div>
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Machine Learning</h2>
+                    <p>ML is one of the most exciting technologies that one would have ever come across. As it is evident from the name, it gives the computer that makes it more similar to humans: The ability to learn. Machine learning is actively being used today, perhaps in many more places than one would expect.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Deep Learning</h2>
+                    <p>Deep learning is a type of machine learning that uses artificial neural networks to learn from data. It's a key component of many AI services and models. Deep learning is called "deep" because it involves multiple layers of neural networks. It's inspired by the human brain and can automate tasks that typically require human intelligence.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------portfolio----------  -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./Movie.png" alt="Movie Recommendation System">
+                    <div class="layer">
+                        <h2>Movie Recommendation System</h2>
+                        <p>This is an end-to-end content-based movie recommender system using cosine similarity. This recommender system provides the top 5 most similar movies based on content similarity.</p>
+                        <a href="https://github.com/iamakashjha/Movie-Recommender-System"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./sentiment.jpg" alt="Sentiment Analysis App">
+                    <div class="layer">
+                        <h2>Sentiment Analysis App</h2>
+                        <p>In this project, I developed a sentiment analysis application utilizing a pre-trained model. The app was built to analyze text and determine the sentiment, whether positive, negative, or neutral. I deployed the application on the Hugging Face platform, making it easily accessible to users for real-time sentiment analysis.</p>
+                        <a href="https://https://github.com/iamakashjha/Sentiment_Analysis"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./car.jpeg" alt="Car Price Prediction with Machine Learning">
+                    <div class="layer">
+                        <h2>Car Price Prediction with Machine Learning</h2>
+                        <p>Built a machine learning model capable of predicting car prices with high accuracy. Identify the key features that significantly influence car prices. Evaluate the performance of the model using appropriate metrics and techniques.</p>
+                        <a href="https://github.com/iamakashjha/car-price-prediction-with-ml"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./email.jpeg" alt="Email Spam Detection with Machine Learning">
+                    <div class="layer">
+                        <h2>Email Spam Detection with Machine Learning</h2>
+                        <p>The SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged acording being ham (legitimate) or spam. I have performed data cleaning, EDA, and applied the Naive Bayes classifier on this data with 3 different classification algorithms, Successfully predicting results with 98% accuracy.</p>
+                        <a href="https://github.com/iamakashjha/Email-spam-detection-with-machine-learning"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./iris.jpg" alt="Iris Flower Classification">
+                    <div class="layer">
+                        <h2>Iris Flower Classification</h2>
+                        <p>Iris flower has three species; setosa, versicolor, and virginica, which differs according to their measurements. We have the measurements of the iris flowers according to their species, and here I've trained a machine learning model that can classify them based on their measurement of Sepal Length, Sepal Width, Petal Length, and Petal Width.</p>
+                        <a href="https://github.com/iamakashjha/iris-flower-classification"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="certifications">
+                <a href="https://drive.google.com/drive/folders/1k7K0mfOSxLegEjNZasEM5YDCaWgOZWom?usp=drive_link">Certifications</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------contact--------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-1">
+                    <h2 class="sub-title">Contact</h2>
+                    <p><a href="richardapoorva@gmail.com"><i class="fa-solid fa-envelope"></i>richardapoorva@gmail.cpm</a></p>
+                    <p><i class="fa-solid fa-phone"></i> +917599113273</p>
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/in/apoorva-rohilla/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/apoorvarohilla"><i class="fa-brands fa-github"></i></a>
+                        
+                    </div>
+                    <a href="./apoorva_python.pdf" class="resume">Download CV</a>
+                </div>
+                <div class="contact-2">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="submit">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Akash Jha. Made with <i class="fa-solid fa-heart"></i></p>
+
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
